@@ -13,7 +13,7 @@ We can't have enough todo apps in the world. This is my rendition of it :) Habit
 Full stack habit-tracking app built with Node.js, Express, MongoDB and Tailwind. Users can create new tasks, mark them complete and delete them. 
 
 
-<img width="500" alt="Screenshot 2022-09-01 at 15 23 58" src="https://user-images.githubusercontent.com/93056794/187938234-df1e797a-ed52-4987-b7f3-b0de11736b5f.png">
+<img width="800" alt="Screenshot 2022-09-01 at 15 23 58" src="https://user-images.githubusercontent.com/93056794/187938234-df1e797a-ed52-4987-b7f3-b0de11736b5f.png">
 
 
 ## Optimizations
