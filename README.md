@@ -4,7 +4,7 @@ We can't have enough todo apps in the world. This is my rendition of it :) Habit
 
 **Link to project:** https://inspirational-quote-crud.herokuapp.com
 
-![alt tag](https://media.giphy.com/media/uarFQ4KBArIyugn7xd/giphy.gif)
+![alt tag](https://media.giphy.com/media/7C0yceS4OgEe7x3ju3/giphy.gif)
 
 ## How It's Made:
 
