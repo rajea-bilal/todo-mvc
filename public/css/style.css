@@ -513,6 +513,8 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+
 .mb-12{
   margin-bottom: 3rem;
 }
@@ -664,6 +666,29 @@ video {
 .completed {
   text-decoration: line-through;
   color: gray;
+}
+
+.main-container {
+  /* border: 1px solid red; */
+  padding: 2rem;
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-btn {
+  transition: 0.3s ease-out;
+}
+.main-btn:hover {
+  cursor: pointer;
+  background: rgb(181, 120, 185);
+}
+.fa-trash-can {
+  transition: 0.3s transform ease-in;
+}
+.fa-trash-can:hover {
+  cursor: pointer;
+  color: rgb(181, 120, 185);
+  transform: scale(1.1);
 }
 @media (min-width: 768px){
 

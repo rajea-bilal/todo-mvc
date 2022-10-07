@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Habitly</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/7d29a524be.js" crossorigin="anonymous"></script>
 </head>
 <body class='bg-gradient-to-r from-indigo-200 via-red-200 to-indigo-200'>
 
@@ -29,16 +30,16 @@
 
     
     <h2 class='text-2xl font-logo text-center text-gray-600'>Tasks left: <%= left %></h2>
-            <main class='flex gap-4 justify-around mt-6'>
+            <main class='flex gap-4 justify-around mt-6 main-container'>
                 <form action="/todos/createTodo" method='POST' class=''>
                     <input type="text" placeholder="Task" name='todoItem'  class='rounded mb-2 p-2'>
                     <div class=>
-                        <textarea name="todoDescription" cols=20 rows=8 placeholder='Description'  class='rounded mb-2 p-1'></textarea>
+                        <textarea name="todoDescription" cols=19 rows=8 placeholder='Description'  class='rounded mb-2 p-1'></textarea>
                     </div>
             
                     <!-- <input type="text" placeholder="description" name='todoDescription'> -->
                     <input type="text" placeholder="Tag" name='todoTag' class='rounded mb-2 p-2'>
-                    <input type="submit" class="bg-red-400 rounded  px-3 py-2 text-rose-100 font-bold">
+                    <input type="submit" class="bg-red-400 rounded px-3 py-2 text-rose-100 font-bold main-btn">
                 </form>
            
                 <ul class='flex flex-wrap gap-3'>
@@ -49,7 +50,8 @@
                             <div class='description p-2 bg-red-100 flex-auto w-40'><%= el.description %></div>
                        
                         <div class='bg-red-100 flex-auto w-40 p-2'><%= el.tag %></div>
-                        <div class='del rounded-b bg-red-100 p-1 flex-auto w-40 p-2'>Delete</div>
+                       
+                        <div class='del rounded-b bg-red-100 p-1 flex-auto w-40 p-2'> <i class="fa-regular fa-trash-can"></i></div>
                     </li>
             
                 <% }) %>    
