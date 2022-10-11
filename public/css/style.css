@@ -662,14 +662,8 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 228 230 / var(--tw-text-opacity));
 }
-.body-container {
-  height: 100vh;
-  border: 1px solid red;
-}
 
-.header {
-  border: 1px solid red;
-}
+
 .completed {
   text-decoration: line-through;
   color: gray;
