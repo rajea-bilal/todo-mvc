@@ -2,7 +2,7 @@
 # Habitly
 We can't have enough todo apps in the world. This is my rendition of it :) Habity allows users to input their daily tasks in a visually pleasing interface, keeping a track of their activities.
 
-**Link to project:** https://inspirational-quote-crud.herokuapp.com
+**Link to project:** https://habitly.up.railway.app
 
 ![alt tag](https://media.giphy.com/media/7C0yceS4OgEe7x3ju3/giphy.gif)
 
